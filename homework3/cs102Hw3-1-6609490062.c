@@ -19,10 +19,10 @@ int main() {
     scanf("%d %d", &row, &col);
 
     // Row loop
-    for (int i = 0; i < row; ++i) {
+    for (int i = 0; i < row; i++) {
 
         // Column loop
-        for (int j = 0; j < col; ++j)
+        for (int j = 0; j < col; j++)
 
             // Which character should be print every row must start
             // with difference first character of previous row
