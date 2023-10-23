@@ -7,7 +7,11 @@
  * Assignment:  3-2
  *
  * Summary of File:
- *  
+ *  This file contains program code for homework 3-2 assignment.
+ *  The program will ask user to input size of square and the square itself.
+ *  Then, the program will check if the square is a magic square or not.
+ *  If it is a magic square, the program will print out the magic constant.
+ *  If it is not a magic square, the program will print out the maximum sum.
  */
 
 #include <stdio.h>
