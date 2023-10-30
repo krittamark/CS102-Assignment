@@ -44,5 +44,7 @@ int main() {
             maxOrchidCount = monthOrchidCount;
         }
     }
+    printf("%d", maxOrchidCount);
+    
     return 0;
 }
