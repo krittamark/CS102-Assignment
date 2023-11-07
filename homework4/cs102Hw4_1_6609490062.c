@@ -1,5 +1,6 @@
 /**
  * File:    cs102Hw4_1_6609490062.c
+ * Title:   Ascii Table	
  *
  * Author:      Krittamet Damthongkam (krittamet.dam@dome.tu.ac.th)
  * Date:        November 7, 2023
