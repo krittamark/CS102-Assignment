@@ -1,5 +1,6 @@
 /**
- * File:    cs102Hw3-3-6609490062.c
+ * File:        cs102Hw3-3-6609490062.c
+ * Title:       Blooming Wild Orchid
  *
  * Author:      Krittamet Damthongkam (krittamet.dam@dome.tu.ac.th)
  * Date:        October 29, 2023

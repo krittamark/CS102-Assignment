@@ -1,5 +1,6 @@
 /**
- * File:    cs102Hw3-2-6609490062.c
+ * File:        cs102Hw3-2-6609490062.c
+ * Title:       Magic Square
  *
  * Author:      Krittamet Damthongkam (krittamet.dam@dome.tu.ac.th)
  * Date:        October 16, 2023

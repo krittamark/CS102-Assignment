@@ -1,5 +1,6 @@
 /**
- * File:    cs102Hw3-4-6609490062.c
+ * File:        cs102Hw3-4-6609490062.c
+ * Title:       Metric Square Max Sum
  *
  * Author:      Krittamet Damthongkam (krittamet.dam@dome.tu.ac.th)
  * Date:        October 29, 2023
@@ -7,7 +8,9 @@
  * Assignment:  3-4
  *
  * Summary of File:
- *
+ *   A program to find the maximum sum of a metric square.
+ *   The program will ask user to input size of square and the square itself.
+ *   Then, the program will find the maximum sum of the square.
  */
 
 #include <stdio.h>

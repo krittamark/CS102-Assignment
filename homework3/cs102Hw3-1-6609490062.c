@@ -1,5 +1,6 @@
 /**
- * File:    cs102Hw3-1-6609490062.c
+ * File:        cs102Hw3-1-6609490062.c
+ * Title:       Table of "O", "X"
  *
  * Author:      Krittamet Damthongkam (krittamet.dam@dome.tu.ac.th)
  * Date:        October 13, 2023
