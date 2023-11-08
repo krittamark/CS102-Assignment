@@ -5,10 +5,10 @@
  * Author:      Krittamet Damthongkam (krittamet.dam@dome.tu.ac.th)
  * Date:        September 8, 2023
  * Course:      PROBLEM SOLVING BASICS AND COMPUTER PROGRAMMING (CS102)
- * Assignment:  1
+ * Assignment:  1-3
  *
  * Summary of File:
- *   This file contains program code for homework 1 assignment.
+ *   This file contains program code for homework 1-3 assignment.
  *   The program will ask user to input withdrawl amount.
  *   Then, the program will calculate and print out the number of each note.
  */
