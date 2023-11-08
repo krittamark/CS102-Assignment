@@ -1,3 +1,18 @@
+/**
+ * File:        cs102Hw2-2-6609490062.c
+ * Title:       Pizza Party Calculator
+ *
+ * Author:      Krittamet Damthongkam (krittamet.dam@dome.tu.ac.th)
+ * Date:        September 19, 2023
+ * Course:      PROBLEM SOLVING BASICS AND COMPUTER PROGRAMMING (CS102)
+ * Assignment:  2-2
+ *
+ * Summary of File:
+ *   This file contains program code for homework 2-2 assignment.
+ *   The program will ask user to input budget amount.
+ *   Then, the program will calculate and print out the number of students that can be provided and the amount of budget remains.
+ */
+
 #include <stdio.h>
 
 int main(void) {

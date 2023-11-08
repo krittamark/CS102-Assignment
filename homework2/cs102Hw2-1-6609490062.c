@@ -1,3 +1,18 @@
+/**
+ * File:        cs102Hw2-1-6609490062.c
+ * Title:       Triangle Type Checker	
+ *
+ * Author:      Krittamet Damthongkam (krittamet.dam@dome.tu.ac.th)
+ * Date:        September 14, 2023
+ * Course:      PROBLEM SOLVING BASICS AND COMPUTER PROGRAMMING (CS102)
+ * Assignment:  2-1
+ *
+ * Summary of File:
+ *   This file contains program code for homework 2-1 assignment.
+ *   The program will ask user to input length of each side of triangle.
+ *   Then, the program will check if the triangle is equilateral, isosceles, scalene or not a triangle.
+ */
+
 #include <stdio.h>
 
 int main(void) {
