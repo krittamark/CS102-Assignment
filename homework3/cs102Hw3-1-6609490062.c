@@ -14,25 +14,25 @@
 #include <stdio.h>
 
 int main() {
-    int col, row = 0;
-    printf("Enter size of your rectangle: ");
-    scanf("%d %d", &row, &col);
+  int col, row = 0;
+  printf("Enter size of your rectangle: ");
+  scanf("%d %d", &row, &col);
 
-    // Row loop
-    for (int i = 0; i < row; i++) {
+  // Row loop
+  for (int i = 0; i < row; i++) {
 
-        // Column loop
-        for (int j = 0; j < col; j++)
+    // Column loop
+    for (int j = 0; j < col; j++)
 
-            // Which character should be print every row must start
-            // with difference first character of previous row
-            if ((i + j) % 2 == 0)
-                printf("O");
-            else
-                printf("X");
+      // Which character should be print every row must start
+      // with difference first character of previous row
+      if ((i + j) % 2 == 0)
+        printf("O");
+      else
+        printf("X");
 
-        // Create new line
-        printf("\n");
-    }
-    return 0;
+    // Create new line
+    printf("\n");
+  }
+  return 0;
 }

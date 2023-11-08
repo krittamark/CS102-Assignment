@@ -24,80 +24,80 @@ void printSeperator(int length);
 void printAsciiFormat(int minAsciiNumber, int maxAsciiNumber, char format[]);
 
 int main(void) {
-	printMenu();
-	int choice;
+  printMenu();
+  int choice;
 
-	do {
-		printf("Enter your choice <1, 2, 3 or 0>: ");
-		scanf("%d", &choice);
+  do {
+    printf("Enter your choice <1, 2, 3 or 0>: ");
+    scanf("%d", &choice);
 
-		if (choice > 3 || choice < 0) {
-			printf("Invalid choice!\n");
-			continue;
-		}
-		
-	} while (choice > 3 || choice < 0);
+    if (choice > 3 || choice < 0) {
+      printf("Invalid choice!\n");
+      continue;
+    }
+    
+  } while (choice > 3 || choice < 0);
 
-	switch (choice) {
-		case 1:
-			Ascii_AIIZ();
-			break;
-			
-		case 2:
-			Ascii_aIIz();
-			break;
+  switch (choice) {
+    case 1:
+      Ascii_AIIZ();
+      break;
+      
+    case 2:
+      Ascii_aIIz();
+      break;
 
-		case 3:
-			Ascii_num();
-			break;
-		
-		default:
-			printf("Bye!!\n");
-			return 0;
-	}
-	main();
+    case 3:
+      Ascii_num();
+      break;
+    
+    default:
+      printf("Bye!!\n");
+      return 0;
+  }
+  main();
 }
 
 void printMenu(void) {
-	printf("############# MENU #############\n");
-	printf("1. Ascii table of characters A-Z\n");
-	printf("2. Ascii table of characters a-z\n");
-	printf("3. Ascii table of code 65-90\n");
-	printf("0. Quit Program\n");
+  printf("############# MENU #############\n");
+  printf("1. Ascii table of characters A-Z\n");
+  printf("2. Ascii table of characters a-z\n");
+  printf("3. Ascii table of code 65-90\n");
+  printf("0. Quit Program\n");
 }
 
 void Ascii_AIIZ(void) {
-	printSeperator(42);
-	printf("Ascii Table for A-Z\n");
-	printSeperator(42);
-	printAsciiFormat(65, 90, "%c - %d\n");
-	printSeperator(42);
+  printSeperator(42);
+  printf("Ascii Table for A-Z\n");
+  printSeperator(42);
+  printAsciiFormat(65, 90, "%c - %d\n");
+  printSeperator(42);
 }
 
 void Ascii_aIIz(void) {
-	printSeperator(42);
-	printf("Ascii Table for a-z\n");
-	printSeperator(42);
-	printAsciiFormat(97, 122, "%c - %d\n");
-	printSeperator(42);
+  printSeperator(42);
+  printf("Ascii Table for a-z\n");
+  printSeperator(42);
+  printAsciiFormat(97, 122, "%c - %d\n");
+  printSeperator(42);
 }
 
 void Ascii_num(void) {
-	printSeperator(42);
-	printf("Ascii Table for code 65-90\n");
-	printSeperator(42);
-	printAsciiFormat(65, 90, "%d - %c\n");
-	printSeperator(42);
+  printSeperator(42);
+  printf("Ascii Table for code 65-90\n");
+  printSeperator(42);
+  printAsciiFormat(65, 90, "%d - %c\n");
+  printSeperator(42);
 }
 
 void printSeperator(int length) {
-	for (int i = 0; i < length; i++)
-		printf("-");
-	printf("\n");
+  for (int i = 0; i < length; i++)
+    printf("-");
+  printf("\n");
 }
 
 void printAsciiFormat(int minAsciiNumber, int maxAsciiNumber, char format[]) {
-	for (int i = minAsciiNumber; i <= maxAsciiNumber; i++) {
-		printf(format, i, i);
-	}
+  for (int i = minAsciiNumber; i <= maxAsciiNumber; i++) {
+    printf(format, i, i);
+  }
 }
