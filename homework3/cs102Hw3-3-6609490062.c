@@ -46,6 +46,6 @@ int main() {
     }
   }
   printf("%d", maxOrchidCount);
-  
+
   return 0;
 }

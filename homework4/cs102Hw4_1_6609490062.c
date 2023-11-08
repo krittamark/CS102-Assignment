@@ -1,6 +1,6 @@
 /**
  * File:        cs102Hw4_1_6609490062.c
- * Title:       Ascii Table	
+ * Title:       Ascii Table
  *
  * Author:      Krittamet Damthongkam (krittamet.dam@dome.tu.ac.th)
  * Date:        November 7, 2023
@@ -10,7 +10,7 @@
  * Summary of File:
  *   This file contains program code for homework 4-1 assignment.
  *   The program will print out the menu and ask user to input their choice.
- *   Then, the program will print out the ascii table according to user's choice.
+ *   Then, the program will print the ascii table according to user's choice.
  */
 
 #include <stdio.h>
@@ -35,14 +35,14 @@ int main(void) {
       printf("Invalid choice!\n");
       continue;
     }
-    
+
   } while (choice > 3 || choice < 0);
 
   switch (choice) {
     case 1:
       Ascii_AIIZ();
       break;
-      
+
     case 2:
       Ascii_aIIz();
       break;
@@ -50,7 +50,7 @@ int main(void) {
     case 3:
       Ascii_num();
       break;
-    
+
     default:
       printf("Bye!!\n");
       return 0;
@@ -91,13 +91,10 @@ void Ascii_num(void) {
 }
 
 void printSeperator(int length) {
-  for (int i = 0; i < length; i++)
-    printf("-");
+  for (int i = 0; i < length; i++) printf("-");
   printf("\n");
 }
 
 void printAsciiFormat(int minAsciiNumber, int maxAsciiNumber, char format[]) {
-  for (int i = minAsciiNumber; i <= maxAsciiNumber; i++) {
-    printf(format, i, i);
-  }
+  for (int i = minAsciiNumber; i <= maxAsciiNumber; i++) printf(format, i, i);
 }

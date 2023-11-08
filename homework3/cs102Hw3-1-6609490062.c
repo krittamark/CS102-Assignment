@@ -21,7 +21,6 @@ int main() {
 
   // Row loop
   for (int i = 0; i < row; i++) {
-
     // Column loop
     for (int j = 0; j < col; j++)
 

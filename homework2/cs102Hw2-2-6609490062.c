@@ -10,13 +10,13 @@
  * Summary of File:
  *   This file contains program code for homework 2-2 assignment.
  *   The program will ask user to input budget amount.
- *   Then, the program will calculate and print out the number of students that can be provided and the amount of budget remains.
+ *   Then, the program will calculate and print out the number of students that
+ *   can be provided and the amount of budget remains.
  */
 
 #include <stdio.h>
 
 int main(void) {
-
   int budget;
   printf("\nPlease enter budget amount: ");
   scanf("%d", &budget);

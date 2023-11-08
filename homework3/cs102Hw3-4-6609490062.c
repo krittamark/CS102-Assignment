@@ -36,29 +36,28 @@ int main() {
     int centerPosition = metricSize / 2;
     for (int i = 0; i < metricSize; i++) {
       verticalSummation += metric[i][centerPosition];
-      horizontalSummation += metric[centerPosition][i];	
+      horizontalSummation += metric[centerPosition][i];
       leftDiagonalSummation += metric[i][i];
       rightDiagonalSummation += metric[i][metricSize - i - 1];
     }
 
   } else if ((metricSize % 2) == 0) {
-      int centerPosition = metricSize / 2;
-      for (int i = 0; i < metricSize; i++) {
-        verticalSummation += (metric[i][centerPosition] + metric[i][centerPosition - 1]) / 2;
-        horizontalSummation += (metric[centerPosition][i] + metric[centerPosition - 1][i]) / 2;
-        leftDiagonalSummation += metric[i][i];
-        rightDiagonalSummation += metric[i][metricSize - i - 1];	
-      }
+    int centerPosition = metricSize / 2;
+    for (int i = 0; i < metricSize; i++) {
+      verticalSummation +=
+          (metric[i][centerPosition] + metric[i][centerPosition - 1]) / 2;
+      horizontalSummation +=
+          (metric[centerPosition][i] + metric[centerPosition - 1][i]) / 2;
+      leftDiagonalSummation += metric[i][i];
+      rightDiagonalSummation += metric[i][metricSize - i - 1];
+    }
   }
 
   maxSum = verticalSummation;
-  if (horizontalSummation > maxSum)
-    maxSum = horizontalSummation;
-  if (leftDiagonalSummation > maxSum)
-    maxSum = leftDiagonalSummation;
-  if (rightDiagonalSummation > maxSum)
-    maxSum = rightDiagonalSummation;
-    
+  if (horizontalSummation > maxSum) maxSum = horizontalSummation;
+  if (leftDiagonalSummation > maxSum) maxSum = leftDiagonalSummation;
+  if (rightDiagonalSummation > maxSum) maxSum = rightDiagonalSummation;
+
   printf("%d", maxSum);
 
   return 0;
