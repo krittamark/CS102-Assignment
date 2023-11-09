@@ -45,6 +45,8 @@ int main(void) {
     printf("Your square is NOT a magic square.\n");
     printf("The maximum sum is %d.", maxSummation);
   }
+
+  return 0;
 }
 
 /****************************
