@@ -1,6 +1,6 @@
 /**
  * File:        cs102Hw4_2_6609490062.c
- * Title:       
+ * Title:       Magic Square with File I/O
  *
  * Author:      Krittamet Damthongkam (krittamet.dam@dome.tu.ac.th)
  * Date:        November 9, 2023
@@ -8,7 +8,9 @@
  * Assignment:  4-2
  *
  * Summary of File:
- *   
+ *   This file contains solution code to Problem 4-2.
+ *   The program reads a square from the user and determines if it is a magic
+ *   square. If it is, the program writes the square to a file.
  */
 
 #include <stdio.h>
