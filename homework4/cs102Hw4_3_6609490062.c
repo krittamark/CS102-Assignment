@@ -53,11 +53,11 @@ int input_data(char studentId[][11],
 int print_data(char studentId[][11],
                int studentScore[][SCORE_COUNT + 1], int printCount) {
   for (int i = 0; i < printCount; i++) {
-    fprintf("%s ", studentId[i]);
+    printf("%s ", studentId[i]);
     for (int j = 0; j < SCORE_COUNT + 1; j++) {
-      fprintf("%d ", studentScore[i][j]);
+      printf("%d ", studentScore[i][j]);
     }
-    fprintf("\n");
+    printf("\n");
   }
   return 0;
 }
